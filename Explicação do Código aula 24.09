@@ -1,0 +1,16 @@
+No início do script, uso a função import para importar a biblioteca que transformará o dicionário no arquivo excel
+
+Depois crio o dicionario vazio, contendo as chaves sem informações: Nome, Data e Autor, que vão ser as chaves no qual as informações serão atribuídas
+
+Em seguida, os comando print servem para introduzir o código ao usuário e explica como funciona para encerrar o loop (escrever fim)
+
+a variável contagem é criada para enumerar os livros pelo qual o usuário está colocando as informações
+
+No loop (while True:), eu preço as informações através do input e, logo em seguida, adiciono essas infos ao dicionário incial através de suas respectivas chaves
+Nesse processo adiciono o if para encerrar o loop caso o usuário finalizou seus livros
+e para finalizar o loop, adiciono +1 a contagem para os valores darem sequência e fazerem sentido
+
+Depois disso, uso a variável data_frame para transformar o meu dicionário em um data frame com as informações, de maneira que faça sentido
+depois disso uso o .to_excel para transformar o meu data frame no arquivo excel
+
+para finalizar, uso um print para explicar ao usuário que o código acabou e que o arquivo excel está disponível para visualização no sistema
